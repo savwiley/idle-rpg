@@ -4,9 +4,11 @@ So far, just an idea. This is a place to gather notes, information, and sources.
 
 # Notice
 
-For the license: `The Free Software Foundation recommends taking the additional step of adding a boilerplate notice to the top of each file. The boilerplate can be found at the end of the license.
+For the license: 
 
-Add GPL-3.0-or-later (or GPL-3.0-only to disallow future versions) to your project’s package description, if applicable (e.g., Node.js, Ruby, and Rust). This will ensure the license is displayed in package directories.`
+`The Free Software Foundation recommends taking the additional step of adding a boilerplate notice to the top of each file. The boilerplate can be found at the end of the license.`
+
+`Add GPL-3.0-or-later (or GPL-3.0-only to disallow future versions) to your project’s package description, if applicable (e.g., Node.js, Ruby, and Rust). This will ensure the license is displayed in package directories.`
 
 # Ideas
 
