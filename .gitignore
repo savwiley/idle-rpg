@@ -104,5 +104,4 @@ dist
 .tern-port
 
 # Manually Added
-.gitignore
 .eslintrc.js
