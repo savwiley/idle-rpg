@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
+:root {
+  --background: #1c1a25;
+  --text: #ccc;
+
+  --font: 'Press Start 2P', Arial, Helvetica, sans-serif;
+}
+
 body {
-  background: #1c1a25;
-  color: #cccccc;
-  font-family: 'Press Start 2P', Arial, Helvetica, sans-serif;
+  background: var(--background);
+  color: var(--text);
+  font-family: var(--font);
 }
