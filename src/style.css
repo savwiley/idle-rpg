@@ -12,3 +12,21 @@ body {
   color: var(--text);
   font-family: var(--font);
 }
+
+body > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+#sidebar {
+  grid-area: 1 / 1 / 4 / 2;
+}
+
+#characterBar {
+  grid-area: 1 / 2 / 2 / 4;
+}
+
+#main {
+  grid-area: 2 / 2 / 4 / 4;
+}
