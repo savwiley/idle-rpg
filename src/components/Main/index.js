@@ -1,8 +1,12 @@
 import React from "react";
-//import { } from "/styled";
+import { Box } from "/styled";
 
 const Main = () => {
+  return(
+    <Box>
 
+    </Box>
+  )
 }
 
 export default Main;

@@ -1,8 +1,12 @@
 import React from "react";
-//import { } from "/styled";
+import { Box } from "/styled";
 
 const Sidebar = () => {
+  return(
+    <Box>
 
+    </Box>
+  )
 }
 
 export default Sidebar;
