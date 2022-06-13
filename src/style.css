@@ -7,6 +7,11 @@
   --font: 'Press Start 2P', Arial, Helvetica, sans-serif;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background: var(--background);
   color: var(--text);
@@ -14,19 +19,14 @@ body {
 }
 
 body > div {
+  padding: 10px 0 0 10px;
+}
+
+body > div > div {
+  height: 95vh;
+  width: 98vw;
   display: grid;
+  grid-gap: 20px;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-}
-
-#sidebar {
-  grid-area: 1 / 1 / 4 / 2;
-}
-
-#characterBar {
-  grid-area: 1 / 2 / 2 / 4;
-}
-
-#main {
-  grid-area: 2 / 2 / 4 / 4;
 }
