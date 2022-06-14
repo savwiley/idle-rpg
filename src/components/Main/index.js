@@ -7,6 +7,11 @@ const Main = (props) => {
   //count = 0 will have to change when we allow saving progress
   const [count, setCount] = useState(0);
 
+  /**
+   * could use the useEffect as the interval itself, only renders once every second BUT only spends once.
+   * two useEffects??
+   */
+
   //auto increment
   useEffect(() => {
     setCount(count - spend);
