@@ -1,8 +1,11 @@
-import React, { useState, useEffect } from "react";
+import React, { /*useState, useEffect*/ } from "react";
 import PropTypes from "prop-types";
 import { Box } from ".//styled";
 
-const Main = (props) => {
+const Main = (props) => { 
+  const { count, useClick } = props
+  
+  /*
   const { auto, spend } = props;
   //count = 0 will have to change when we allow saving progress
   const [count, setCount] = useState(0);
@@ -12,7 +15,8 @@ const Main = (props) => {
    * two useEffects??
    */
 
-  //auto increment
+  //auto increment 
+  /*
   useEffect(() => {
     setCount(count - spend);
 
@@ -21,13 +25,13 @@ const Main = (props) => {
     }
 
     setInterval(addCount, 1000);
-  });
+  });*/
 
 
   return(
     <Box 
       onClick={() => {
-        setCount(count + 1);
+        useClick(true);
       }}
     >
       {count}
@@ -37,8 +41,10 @@ const Main = (props) => {
 };
 
 Main.propTypes = {
-  auto: PropTypes.PropTypes.oneOfType([PropTypes.object, PropTypes.number]),
-  spend: PropTypes.PropTypes.oneOfType([PropTypes.object, PropTypes.number]),
+  useClick: PropTypes.PropTypes.oneOfType([PropTypes.object, PropTypes.func]),
+  count: PropTypes.PropTypes.oneOfType([PropTypes.object, PropTypes.number]),
+  //auto: PropTypes.PropTypes.oneOfType([PropTypes.object, PropTypes.number]),
+  //spend: PropTypes.PropTypes.oneOfType([PropTypes.object, PropTypes.number]),
 };
 
 export default Main;
