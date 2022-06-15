@@ -9,7 +9,7 @@ const Sidebar = (props) => {
     <Box>
       <button 
         onClick={() => {
-          useBuff(1);
+          useBuff(buff => buff + 1);
           useRemove(10);
         }}
       >
