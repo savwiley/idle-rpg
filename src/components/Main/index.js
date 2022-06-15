@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { Box } from ".//styled";
 
 const Main = (props) => { 
-  const { count, useClick } = props
+  const { count, useClick, click } = props
   
   /*
   const { auto, spend } = props;
@@ -31,10 +31,10 @@ const Main = (props) => {
   return(
     <Box 
       onClick={() => {
-        useClick(true);
+        click ? useClick(false) : useClick(true);
       }}
     >
-      {count}
+      {count - 1}
 
     </Box>
   )
@@ -43,6 +43,7 @@ const Main = (props) => {
 Main.propTypes = {
   useClick: PropTypes.PropTypes.oneOfType([PropTypes.object, PropTypes.func]),
   count: PropTypes.PropTypes.oneOfType([PropTypes.object, PropTypes.number]),
+  click: PropTypes.PropTypes.oneOfType([PropTypes.object, PropTypes.bool]),
   //auto: PropTypes.PropTypes.oneOfType([PropTypes.object, PropTypes.number]),
   //spend: PropTypes.PropTypes.oneOfType([PropTypes.object, PropTypes.number]),
 };
