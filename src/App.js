@@ -10,40 +10,42 @@ function App() {
   //count = 0 will have to change when we allow saving progress
   const [count, setCount] = useState(0);
 
-   useEffect(() => {
-    //clicking
-    //click number will change to variable
-     if (click) {
-       setCount(count + 1);
-       setClick(false);
-       console.log("click");
-     }
 
-   //remove increment
-     if (remove > 0) {
+  useEffect(() => {
+    setCount(count + 1);
+    console.log(`click ${count}`);
+  }, [click]);
+
+  useEffect(() => {
+    if (remove > 0) {
       setCount(count - remove);
       setRemove(0);
       console.log("remove");
+      console.log(`new buff ${buff}`);
      }
+  }, [remove]);
 
     //auto increment
-    //how to only set the increment once
-     if (buff > 0) {
-      setInterval(() => {
-        setCount(count + buff);
-        console.log(count);
-      }, 1000);
-      console.log(`buff is ${buff}`);
-     }
-   });
+   useEffect(() => {
+    autoClick();
+   }, [buff]);
 
+   const autoClick = () => {
+    setInterval(() => {
+      setCount(count => count + buff);
+      console.log(count);
+      console.log(`buff ${buff}`);
+    }, 1000);
+   }
+
+   //clearInterval every time new buff is applied
 
 
   return (
     <div>
       <Sidebar useBuff={setBuff} useRemove={setRemove} />
       <CharacterBar />
-      <Main count={count} useClick={setClick} />
+      <Main count={count} useClick={setClick} click={click} />
     </div>
   );
 }
