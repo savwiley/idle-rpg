@@ -5,11 +5,12 @@ import Sidebar from "./components/Sidebar";
 
 function App() {
   const [buff, setBuff] = useState(0);
+  const [buffChanger, setBuffChanger] = useState(0);
+  const [auto, setAuto] = useState();
   const [remove, setRemove] = useState(0);
   const [click, setClick] = useState(false);
   //count = 0 will have to change when we allow saving progress
   const [count, setCount] = useState(0);
-
 
   useEffect(() => {
     setCount(count + 1);
@@ -27,18 +28,31 @@ function App() {
 
     //auto increment
    useEffect(() => {
-    autoClick();
+    console.log(`buff ${buff}`);
+    console.log(`buff changer ${buffChanger}`);
+     if (buffChanger === buff) {
+       autoClick();
+     } else {
+       clearInterval(auto);
+       console.log("else");
+       //autoClick();
+       setBuffChanger(buff);
+       autoClick();
+     }
+     console.log(auto);
    }, [buff]);
 
    const autoClick = () => {
-    setInterval(() => {
+    let intervalID = setInterval(() => {
       setCount(count => count + buff);
       console.log(count);
-      console.log(`buff ${buff}`);
     }, 1000);
-   }
+    console.log(`buff again ${buff}`);
+    return setAuto(intervalID);
+   };
 
    //clearInterval every time new buff is applied
+   // https://stackoverflow.com/questions/64406295/clearinterval-not-stopping-my-counter-in-useeffect
 
 
   return (
