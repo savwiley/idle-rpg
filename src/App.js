@@ -21,18 +21,17 @@ function App() {
       setCount(count - remove);
       setRemove(0);
       clearInterval(auto);
-     }
+    }
   }, [remove]);
 
-    //auto increment
+  //auto increment
   useEffect(() => {
     let intervalID = setInterval(() => {
-      setCount(count => count + buff);
+      setCount((count) => count + buff);
       console.log(count);
     }, 1000);
     setAuto(intervalID);
   }, [buff]);
-
 
   return (
     <div>

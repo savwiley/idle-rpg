@@ -7,16 +7,16 @@ const Sidebar = (props) => {
 
   return (
     <Box>
-      <button 
+      <button
         onClick={() => {
-          useBuff(buff => buff + 1);
+          useBuff((buff) => buff + 1);
           useRemove(10);
         }}
       >
         Spend 10
       </button>
     </Box>
-  )
+  );
 };
 
 Sidebar.propTypes = {
