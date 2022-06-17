@@ -11,11 +11,13 @@ function App() {
   //count = 0 will have to change when we allow saving progress
   const [count, setCount] = useState(0);
 
+  //adds clicks to count
   useEffect(() => {
     setCount(count + 1);
     console.log(`click ${count}`);
   }, [click]);
 
+  //subtracts from count/refreshes buff stat
   useEffect(() => {
     if (remove > 0) {
       setCount(count - remove);
