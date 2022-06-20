@@ -1,0 +1,91 @@
+{
+  "White": {
+    "Heal": {
+      "Cost": 5,
+      "Description": "Heal 20HP of one ally."
+    },
+    "Heal All": {
+      "Cost": "placeholder",
+      "Description": "placeholder"
+    },
+    "Remedy": {
+      "Cost": "placeholder",
+      "Description": "placeholder"
+    },
+    "Holy": {
+      "Cost": "placeholder",
+      "Description": "placeholder"
+    }
+  },
+  "Black": {
+    "Fire": {
+      "Cost": "placeholder",
+      "Description": "placeholder"
+    },
+    "Water": {
+      "Cost": "placeholder",
+      "Description": "placeholder"
+    },
+    "Thunder": {
+      "Cost": "placeholder",
+      "Description": "placeholder"
+    },
+    "Ice": {
+      "Cost": "placeholder",
+      "Description": "placeholder"
+    },
+    "Earth": {
+      "Cost": "placeholder",
+      "Description": "placeholder"
+    },
+    "Wind": {
+      "Cost": "placeholder",
+      "Description": "placeholder"
+    }
+  },
+  "Green": {
+    "Poison": {
+      "Cost": "placeholder",
+      "Description": "placeholder"
+    },
+    "Fever": {
+      "Cost": "placeholder",
+      "Description": "placeholder"
+    },
+    "Blind": {
+      "Cost": "placeholder",
+      "Description": "placeholder"
+    },
+    "Deaf": {
+      "Cost": "placeholder",
+      "Description": "placeholder"
+    },
+    "Slow": {
+      "Cost": "placeholder",
+      "Description": "placeholder"
+    },
+    "Haste": {
+      "Cost": "placeholder",
+      "Description": "placeholder"
+    },
+    "Shield": {
+      "Cost": "placeholder",
+      "Description": "placeholder"
+    },
+    "Aura": {
+      "Cost": "placeholder",
+      "Description": "placeholder"
+    },
+    "Charge": {
+      "Cost": "placeholder",
+      "Description": "placeholder"
+    },
+    "Meditate": {
+      "Cost": "placeholder",
+      "Description": "placeholder"
+    }
+  },
+  "Red": {
+    "Description": "placeholder"
+  }
+}
