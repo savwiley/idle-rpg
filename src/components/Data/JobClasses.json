@@ -8,7 +8,7 @@
     "Magic Defense": 0,
     "Evasion": 0,
     "Luck": 0,
-    "Items": {
+    "Equipment": {
       "Weapon": "Sword",
       "Armor": "Heavy Armor"
     }
@@ -22,7 +22,7 @@
     "Magic Defense": 0,
     "Evasion": 30,
     "Luck": 10,
-    "Items": {
+    "Equipment": {
       "Weapon": "Bow",
       "Armor": "Light Armor"
     }
@@ -36,7 +36,7 @@
     "Magic Defense": 30,
     "Evasion": 50,
     "Luck": 10,
-    "Items": {
+    "Equipment": {
       "Weapon": "Dagger",
       "Armor": "Light Armor"
     },
@@ -51,7 +51,7 @@
     "Magic Defense": 0,
     "Evasion": 0,
     "Luck": 0,
-    "Items": {
+    "Equipment": {
       "Weapon": "none",
       "Armor": "Heavy Armor"
     }
@@ -65,7 +65,7 @@
     "Magic Defense": 30,
     "Evasion": 0,
     "Luck": 0,
-    "Items": {
+    "Equipment": {
       "Weapon": "none",
       "Armor": "Robes"
     },
@@ -80,7 +80,7 @@
     "Magic Defense": 0,
     "Evasion": 50,
     "Luck": 30,
-    "Items": {
+    "Equipment": {
       "Weapon": "Dagger",
       "Armor": "Light Armor"
     },
@@ -95,7 +95,7 @@
     "Magic Defense": 0,
     "Evasion": 0,
     "Luck": 0,
-    "Items": {
+    "Equipment": {
       "Weapon": "Lance",
       "Armor": "Heavy Armor"
     }
@@ -109,7 +109,7 @@
     "Magic Defense": 0,
     "Evasion": 0,
     "Luck": 0,
-    "Items": {
+    "Equipment": {
       "Weapon": "none",
       "Armor": "Heavy Armor"
     },
@@ -124,7 +124,7 @@
     "Magic Defense": 0,
     "Evasion": 0,
     "Luck": 0,
-    "Items": {
+    "Equipment": {
       "Weapon": "Sword",
       "Armor": "Heavy Armor"
     },
@@ -139,7 +139,7 @@
     "Magic Defense": 30,
     "Evasion": 0,
     "Luck": 0,
-    "Items": {
+    "Equipment": {
       "Weapon": "Rod",
       "Armor": "Robes"
     },
@@ -154,7 +154,7 @@
     "Magic Defense": 50,
     "Evasion": 0,
     "Luck": 0,
-    "Items": {
+    "Equipment": {
       "Weapon": "Rod",
       "Armor": "Robes"
     },
@@ -169,7 +169,7 @@
     "Magic Defense": 30,
     "Evasion": 0,
     "Luck": 0,
-    "Items": {
+    "Equipment": {
       "Weapon": "Instrument",
       "Armor": "Light Armor"
     },
@@ -184,7 +184,7 @@
     "Magic Defense": 30,
     "Evasion": 0,
     "Luck": 30,
-    "Items": {
+    "Equipment": {
       "Weapon": "none",
       "Armor": "Light Armor"
     },
@@ -199,7 +199,7 @@
     "Magic Defense": 30,
     "Evasion": 0,
     "Luck": 0,
-    "Items": {
+    "Equipment": {
       "Weapon": "none",
       "Armor": "Robes"
     },
