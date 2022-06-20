@@ -1,11 +1,20 @@
 {
   "Heavy Armor": {
-    "Description": "placeholder"
+    "Description": "Emphasizes Defense.",
+    "Cardboard": {
+
+    }
   },
   "Light Armor": {
-    "Description": "placeholder"
+    "Description": "Emphasizes Evasion.",
+    "Sweatpants": {
+
+    }
   },
   "Robes": {
-    "Description": "placeholder"
+    "Description": "Emphasizes Magic Defense.",
+    "Night Gown": {
+
+    }
   }
 }

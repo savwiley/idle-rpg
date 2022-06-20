@@ -1,20 +1,38 @@
 {
   "Sword": {
-    "Description": "placeholder"
+    "Description": "Emphasizes Strength.",
+    "Foam Sword": {
+
+    }
   },
   "Bow": {
-    "Description": "placeholder"
+    "Description": "Emphasizes Evasion and Luck.",
+    "Slingshot": {
+
+    }
   },
   "Dagger": {
-    "Description": "placeholder"
+    "Description": "Emphasizes Evasion.",
+    "Sharp Rock": {
+
+    }
   },
   "Lance": {
-    "Description": "placeholder"
+    "Description": "Emphasizes Strength and Evasion.",
+    "Long Pointy Stick": {
+
+    }
   },
   "Rod": {
-    "Description": "placeholder"
+    "Description": "Emphasizes Magic Strength.",
+    "Small Stick": {
+
+    }
   },
   "Instrument": {
-    "Description": "placeholder"
+    "Description": "Emphasizes Magic Strength.",
+    "Pot & Pan": {
+
+    }
   }
 }
