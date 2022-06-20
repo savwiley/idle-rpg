@@ -1,23 +1,23 @@
 {
   "Mix": {
-    "Description": "placeholder"
+    "Description": "Mix up to three items together for a new effect."
   },
   "Sap": {
-    "Description": "placeholder"
+    "Description": "Drain enemy HP and gain HP."
   },
   "Tame": {
-    "Description": "placeholder"
+    "Description": "Lose current companion to take an enemy beast as a new companion. 50% possibility on beasts. 1% possibility on people."
   },
   "Steal": {
-    "Description": "placeholder"
+    "Description": "Steal items from an enemy."
   },
   "Hide": {
-    "Description": "placeholder"
+    "Description": "Become invincible to physical attacks for a short time."
   },
   "Berserk": {
-    "Description": "placeholder"
+    "Description": "Double Strength and Speed of target. Target will only use Attack."
   },
   "Chance": {
-    "Description": "placeholder"
+    "Description": "Use probability to deal damage. Failure results in harming the caster."
   }
 }

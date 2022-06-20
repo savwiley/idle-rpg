@@ -5,42 +5,50 @@
       "Description": "Heal 20HP of one ally."
     },
     "Heal All": {
-      "Cost": "placeholder",
-      "Description": "placeholder"
+      "Cost": 13,
+      "Description": "Heal 20HP of all allies."
     },
     "Remedy": {
-      "Cost": "placeholder",
-      "Description": "placeholder"
+      "Cost": 10,
+      "Description": "Remove negative status effects from one ally."
     },
     "Holy": {
-      "Cost": "placeholder",
-      "Description": "placeholder"
+      "Cost": 25,
+      "Description": "Attack all enemies with Holy Magic."
     }
   },
   "Black": {
-    "Fire": {
-      "Cost": "placeholder",
-      "Description": "placeholder"
+    "Burn": {
+      "Cost": 10,
+      "Description": "Attack all enemies with Fire Magic."
     },
-    "Water": {
-      "Cost": "placeholder",
-      "Description": "placeholder"
+    "Surf": {
+      "Cost": 10,
+      "Description": "Attack all enemies with Water Magic."
     },
-    "Thunder": {
-      "Cost": "placeholder",
-      "Description": "placeholder"
-    },
-    "Ice": {
-      "Cost": "placeholder",
-      "Description": "placeholder"
-    },
-    "Earth": {
-      "Cost": "placeholder",
-      "Description": "placeholder"
+    "Quake": {
+      "Cost": 10,
+      "Description": "Attack all enemies with Earth Magic."
     },
     "Wind": {
-      "Cost": "placeholder",
-      "Description": "placeholder"
+      "Cost": 10,
+      "Description": "Attack all enemies with Air Magic."
+    },
+    "Lightning": {
+      "Cost": 15,
+      "Description": "Attack all enemies with Electric Magic."
+    },
+    "Blizzard": {
+      "Cost": 15,
+      "Description": "Attack all enemies with Ice Magic."
+    },
+    "Shadow": {
+      "Cost": 20,
+      "Description": "Attack all enemies with Dark Magic."
+    },
+    "Gravity": {
+      "Cost": 30,
+      "Description": "Halve current HP of all enemies."
     }
   },
   "Green": {
