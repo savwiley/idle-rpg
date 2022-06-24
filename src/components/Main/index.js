@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Box } from ".//styled";
+import { Box, Numbers } from ".//styled";
 
 const Main = (props) => {
   const { count, useClick, click } = props;
@@ -11,7 +11,7 @@ const Main = (props) => {
         click ? useClick(false) : useClick(true);
       }}
     >
-      {count - 1}
+      <Numbers>{count - 1}</Numbers>
     </Box>
   );
 };
