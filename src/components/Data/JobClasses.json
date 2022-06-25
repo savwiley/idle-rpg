@@ -7,6 +7,8 @@
     "Magic Strength": 0,
     "Magic Defense": 0,
     "Evasion": 0,
+    "Accuracy": "TBD",
+    "Speed": "TBD",
     "Luck": 0,
     "Phase": {
       "1": "Warrior",
@@ -27,6 +29,8 @@
     "Magic Strength": 50,
     "Magic Defense": 30,
     "Evasion": 0,
+    "Accuracy": "TBD",
+    "Speed": "TBD",
     "Luck": 0,
     "Phase": {
       "1": "Magician",
@@ -37,7 +41,8 @@
     "Equipment": {
       "Weapon": "Wand",
       "Armor": "Robe"
-    }
+    },
+    "Abilities": "Magic.Black"
   },
   "Cleric": {
     "HP": 30,
@@ -47,6 +52,8 @@
     "Magic Strength": 50,
     "Magic Defense": 50,
     "Evasion": 0,
+    "Accuracy": "TBD",
+    "Speed": "TBD",
     "Luck": 0,
     "Phase": {
       "1": "Healer",
@@ -57,7 +64,8 @@
     "Equipment": {
       "Weapon": "Rod",
       "Armor": "Robe"
-    }
+    },
+    "Abilities": "Magic.White"
   },
   "Assassin": {
     "HP": 50,
@@ -67,6 +75,8 @@
     "Magic Strength": 0,
     "Magic Defense": 30,
     "Evasion": 50,
+    "Accuracy": "TBD",
+    "Speed": "TBD",
     "Luck": 10,
     "Phase": {
       "1": "Thief",
@@ -77,7 +87,8 @@
     "Equipment": {
       "Weapon": "Dagger",
       "Armor": "Light Armor"
-    }
+    },
+    "Abilities": "Steal"
   },
   "Ranger": {
     "HP": 80,
@@ -87,6 +98,8 @@
     "Magic Strength": 0,
     "Magic Defense": 0,
     "Evasion": 30,
+    "Accuracy": "TBD",
+    "Speed": "TBD",
     "Luck": 10,
     "Phase": {
       "1": "Hunter",
@@ -107,6 +120,8 @@
     "Magic Strength": 30,
     "Magic Defense": 30,
     "Evasion": 0,
+    "Accuracy": "TBD",
+    "Speed": "TBD",
     "Luck": 0,
     "Phase": {
       "1": "Singer",
@@ -117,7 +132,8 @@
     "Equipment": {
       "Weapon": "Instrument",
       "Armor": "Light Armor"
-    }
+    },
+    "Abilities": "Magic.Green"
   },
   "Special": {
     "Druid": {
@@ -128,6 +144,8 @@
       "Magic Strength": 0,
       "Magic Defense": 0,
       "Evasion": 0,
+      "Accuracy": "TBD",
+      "Speed": "TBD",
       "Luck": 0,
       "Phase": {
         "1": "Beast Master",
@@ -136,7 +154,8 @@
       "Equipment": {
         "Weapon": "Stave",
         "Armor": "Heavy Armor"
-      }
+      },
+      "Abilities": "Tame"
     },
     "Mathematician": {
       "HP": 20,
@@ -146,6 +165,8 @@
       "Magic Strength": 50,
       "Magic Defense": 30,
       "Evasion": 0,
+      "Accuracy": "TBD",
+      "Speed": "TBD",
       "Luck": 30,
       "Phase": {
         "1": "Gambler",
@@ -154,7 +175,8 @@
       "Equipment": {
         "Weapon": "Stave",
         "Armor": "Robe"
-      }
+      },
+      "Abilities": "Chance"
     },
     "Alchemist": {
       "HP": 50,
@@ -164,6 +186,8 @@
       "Magic Strength": 0,
       "Magic Defense": 30,
       "Evasion": 0,
+      "Accuracy": "TBD",
+      "Speed": "TBD",
       "Luck": 0,
       "Phase": {
         "1": "Chemist",
@@ -172,7 +196,8 @@
       "Equipment": {
         "Weapon": "Measure",
         "Armor": "Robe"
-      }
+      },
+      "Abilities": "Mix"
     }
   }
 }
