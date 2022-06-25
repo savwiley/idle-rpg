@@ -2,9 +2,9 @@
 
 So far, just an idea. This is a place to gather notes, information, and sources.
 
-# Notice
+# License
 
-For the license: 
+Notice on the GPL-3.0 license: 
 
 `The Free Software Foundation recommends taking the additional step of adding a boilerplate notice to the top of each file. The boilerplate can be found at the end of the license.`
 
@@ -38,6 +38,35 @@ The main plot everyone experiences will based around the increment itself. For s
 
 It is unlikely any maps will be implemented. Different areas or levels will contain different themes (tundra, beach, etc). There will not be a set number of "rooms" in these areas. Once a player reaches a certain level or exp limit, they will have the option to advance.
 
+## Enemies & Battle
+
+Enemies will be unique in every "area" or level. They will have their own stats and battles will be decided via AI.
+
+Character actions will be similar to Final Fantasy XII's use of the [Gambit system](https://finalfantasy.fandom.com/wiki/Gambits).
+
+## Shop
+
+**Not a use of real money.** Gold will be the in-game currency. Increment of gold will depend on the current area/how quickly enemies are defeated.
+
+The shop will contain upgrades such as:
+
+- Equipment
+- Magic
+
+## Upgrades
+
+**Not a use of real money.** Upgrades will be "purchased" with the main increment (aka. exp points). This will be the central focus of the game.
+
+Upgrades will include:
+
+- More party slots
+- New abilities
+- The option to transition job classes
+- Advancement to new areas
+- Boss battles
+- Chance to acquire a Summon
+
+
 ## Stats
 
 - HP
@@ -47,38 +76,76 @@ It is unlikely any maps will be implemented. Different areas or levels will cont
 - Magic Strength
 - Magic Defense
 - Evasion
+- Accuracy
+- Speed
 - Luck (crit chance)
 
 ## Jobs
 
-Some jobs may be higher level than others and character can work their way up. Example: Swordsman > Knight > Paladin or Rogue > Ninja > Assassin.
+Jobs will progress in classes as characters level up. Jobs will change at levels 25, 50, 75, and 100 (max).
 
-### Physical
+### Class Progression
 
-- Paladin/Knight/Swordsman (sword, high strength, holy, heavy armor)
-- Ranger/Archer/Hunter (bow, ranged, high evasion, leather armor)
-- Rogue/Ninja (dagger, steal, high evasion, leather armor)
-- Monk/Fighter/Warrior (fists, high strength)
-- Chemist/Alchemist (uses special items, robes, tome)
-- Assassin (chance of one hit KO)
-- Soldier/Dragoon (spear/lance)
-- Berserker/Beast Master/Druid/Shaman
+#### Warrior > Gladiator > Knight > Paladin
 
-### Magic
+- Tank of the group
+- Uses Swords and Heavy armor
 
-- White Mage/Healer (healing, holy, robes, rod)
-- Black Mage/Wizard/Sorcerer (fire/water/etc, robes, rod)
-- Green Mage/Bard/Dancer (status poison/haste/etc, robes, instrument)
-- Red Mage (black & white but weak, robes, sword)
-- Blue Mage (learns enemy attacks)
-- Scholar (can see enemy stats/world, robes, tome)
-- Gambler/Mathematician (attack based on chance/math)
-- Dark Knight/Warlock (hurts self to cause enemy damage)
+#### Magician > Black Mage > Sorcerer > Warlock
 
-### Other
+- Mage
+- Uses Wands and Robes
+- Casts Black Magic (fire, ice, etc)
+
+#### Healer > White Mage > Shaman > Cleric
+
+- Mage
+- Uses Rods and Robes
+- Casts White Magic (heal, remedy, etc)
+
+#### Thief > Rogue > Ninja > Assassin
+
+- The sneaky one
+- Uses Daggers and Light Armor
+- Can steal items from enemies
+
+#### Hunter > Scout > Archer > Ranger
+
+- Ranged fighter
+- Uses Bows and Light Armor
+- Has high accuracy
+
+#### Singer > Dancer > Musician > Bard
+
+- Sort of a mage
+- Uses various instruments and Light Armor
+- Casts Green Magic (blind, poison, etc)
+
+#### :star2: Beast Master > Druid
+
+- **Special class!** Likely a paid option.
+- Uses Staves and Heavy Armor
+- Can tame enemies and use them as companions
+
+#### :star2: Gambler > Mathematician
+
+- **Special class!** Likely a paid option.
+- Uses "measures" and Robes
+- Relies on Luck and chance to deal damage or heal allies
+
+#### :star2: Chemist > Alchemist
+
+- **Special class!** Likely a paid option.
+- Uses "measures" and Robes
+- Can mix together items to get new reactions
+
+### Possible Future Classes
 
 - Samurai (sword but long range)
 - Gunner/Pirate (guns, steal)
+- Berserker (high strength, only attacks)
+- Dragoon/Spearman (uses lances)
+- Blue Mage (uses enemy attacks, like Druid)
 
 ## Summons
 
@@ -100,7 +167,6 @@ A summoned critter (name to change, of course) will give the increment a particu
 
 - Berserk (triple strength, only uses basic attack, doesn't follow orders)
 - Haste (double recharge time)
-- Decoy (force enemies to attack afflicted character)
 - Shield (protect, double physical defense)
 - Aura (shell, double magic defense)
 - Charge (bravery, double physical strength)
