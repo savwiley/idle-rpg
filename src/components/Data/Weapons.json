@@ -6,7 +6,7 @@
     }
   },
   "Bow": {
-    "Description": "Emphasizes Evasion and Luck.",
+    "Description": "Emphasizes Accuracy.",
     "Slingshot": {
 
     }
@@ -17,13 +17,13 @@
 
     }
   },
-  "Lance": {
-    "Description": "Emphasizes Strength and Evasion.",
-    "Long Pointy Stick": {
+  "Rod": {
+    "Description": "Emphasizes Magic Strength.",
+    "Long Stick": {
 
     }
   },
-  "Rod": {
+  "Wand": {
     "Description": "Emphasizes Magic Strength.",
     "Small Stick": {
 
@@ -32,6 +32,18 @@
   "Instrument": {
     "Description": "Emphasizes Magic Strength.",
     "Pot & Pan": {
+
+    }
+  },
+  "Stave": {
+    "Description": "Emphasizes Strength and Evasion.",
+    "Long Stick": {
+
+    }
+  },
+  "Measure": {
+    "Description": "Emphasizes Luck.",
+    "Ruler": {
 
     }
   }
