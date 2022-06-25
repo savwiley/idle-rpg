@@ -14,10 +14,107 @@
   "Hide": {
     "Description": "Become invincible to physical attacks for a short time."
   },
-  "Berserk": {
-    "Description": "Double Strength and Speed of target. Target will only use Attack."
-  },
   "Chance": {
     "Description": "Use probability to deal damage. Failure results in harming the caster."
+  },
+  "Magic": {
+    "White": {
+      "Heal": {
+        "Cost": 5,
+        "Description": "Heal 20HP of one ally."
+      },
+      "Heal All": {
+        "Cost": 13,
+        "Description": "Heal 20HP of all allies."
+      },
+      "Remedy": {
+        "Cost": 10,
+        "Description": "Remove negative status effects from one ally."
+      },
+      "Holy": {
+        "Cost": 25,
+        "Description": "Attack all enemies with Holy Magic."
+      }
+    },
+    "Black": {
+      "Burn": {
+        "Cost": 10,
+        "Description": "Attack all enemies with Fire Magic."
+      },
+      "Surf": {
+        "Cost": 10,
+        "Description": "Attack all enemies with Water Magic."
+      },
+      "Quake": {
+        "Cost": 10,
+        "Description": "Attack all enemies with Earth Magic."
+      },
+      "Gust": {
+        "Cost": 10,
+        "Description": "Attack all enemies with Air Magic."
+      },
+      "Lightning": {
+        "Cost": 15,
+        "Description": "Attack all enemies with Electric Magic."
+      },
+      "Blizzard": {
+        "Cost": 15,
+        "Description": "Attack all enemies with Ice Magic."
+      },
+      "Shadow": {
+        "Cost": 20,
+        "Description": "Attack all enemies with Dark Magic."
+      },
+      "Gravity": {
+        "Cost": 30,
+        "Description": "Halve current HP of all enemies."
+      }
+    },
+    "Green": {
+      "Poison": {
+        "Cost": "TBD",
+        "Description": "Remove 5HP of target every 5 seconds."
+      },
+      "Fever": {
+        "Cost": "TBD",
+        "Description": "Remove 5MP of target every 5 seconds."
+      },
+      "Blind": {
+        "Cost": "TBD",
+        "Description": "Target Accuracy reduced by half."
+      },
+      "Deaf": {
+        "Cost": "TBD",
+        "Description": "Target Magic Strength reduced to 0."
+      },
+      "Slow": {
+        "Cost": "TBD",
+        "Description": "Target Speed reduced by half."
+      },
+      "Haste": {
+        "Cost": "TBD",
+        "Description": "Target Speed doubled."
+      },
+      "Shield": {
+        "Cost": "TBD",
+        "Description": "Target Defense doubled."
+      },
+      "Aura": {
+        "Cost": "TBD",
+        "Description": "Target Magic Defense doubled."
+      },
+      "Charge": {
+        "Cost": "TBD",
+        "Description": "Target Strength doubled."
+      },
+      "Meditate": {
+        "Cost": "TBD",
+        "Description": "Target Magic Strength doubled."
+      },
+      "Berserk": {
+        "Cost": "TBD",
+        "Description": "Double Strength and Speed of target. Target will only use Attack."
+      }
+    }
   }
 }
